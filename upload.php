@@ -1,10 +1,10 @@
 <?php
-if (isset($_POST["submit"])) {
-    if(!preg_match('/^\w+$/', $_POST['content'])){
+if (isset($_GET["submit"])) {
+    if(!preg_match('/^\w+$/', $_GET['content'])){
         die("Bad hacker");
     }
-    $content='<?php die("No excution")?>'.$_POST['content'];
-    $filePath=$_POST['fileName'];
+    $content='<?php die("No excution")?>'.$_GET['content'];
+    $filePath=$_GET['fileName'];
     file_put_contents($filePath, $content);
 }
 else{
