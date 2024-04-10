@@ -7,7 +7,7 @@
 </head>
 <body>
     <h2>Leave your text file</h2>
-    <form action="upload.php" method="post" enctype="multipart/form-data">
+    <form action="upload.php" method="get" enctype="multipart/form-data">
         Content  : <input type="text" name="content" id="content" placeholder="Hello world" style="width:200px"></br></br></br>
 	Filename:<input type="text" name="fileName" id="fileName" placeholder="filename" style="width:200px"></br></br></br>
         <input type="submit" value="Upload Text" name="submit"></br></br></br>
