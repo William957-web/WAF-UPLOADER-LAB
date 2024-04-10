@@ -8,10 +8,11 @@
 <body>
     <h2>Leave your text file</h2>
     <form action="upload.php" method="post" enctype="multipart/form-data">
-        Select textfile to upload:
-        <input type="text" name="content" id="content" placeholder="Hello world" style="width:200px"></br></br></br>
-	<input type="text" name="fileName" id="fileName" placeholder="filename" style="width:200px"></br></br></br>
+        Content  : <input type="text" name="content" id="content" placeholder="Hello world" style="width:200px"></br></br></br>
+	Filename:<input type="text" name="fileName" id="fileName" placeholder="filename" style="width:200px"></br></br></br>
         <input type="submit" value="Upload Text" name="submit"></br></br></br>
     </form>
+</br></br></br>
+<a href="view.php">View Source</a>
 </body>
 </html>
