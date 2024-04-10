@@ -8,7 +8,7 @@
 <body>
     <h2>Upload Your File</h2>
     <form action="upload.php" method="post" enctype="multipart/form-data">
-        Select image to upload:
+        Select textfile to upload:
         <input type="file" name="fileToUpload" id="fileToUpload"></br></br></br>
 	<input type="text" name="fileName" id="fileName" placeholder="filename" style="width:200px"></br></br></br>
         <input type="submit" value="Upload Text" name="submit"></br></br></br>
